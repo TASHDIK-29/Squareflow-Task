@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../images/banner.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 32px;
+    border-bottom: .01px solid gray;
+} 
+
+
+.nav-heading {
+    width: 50%;
+    color: #131318;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    color: white;
+}
+
+.nav-menu {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.nav-menu button{
+    border: 1px solid white;
+    color: white;
+    border-radius: 16px;
+    padding: 12px 16px;
+    background: none;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80vh;
+
+}
+
+.banner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.banner-text{
+    flex-grow: 1;
+    padding: 32px;
+    
+}
+
+.banner-text h3{
+    font-size: 32px;
+    color: white;
+}
+.banner-text h1{
+    font-size: 48px;
+    color: white;
+    margin-top: 16px;
+}
+.banner-text h5{
+    font-size: 12px;
+    color: white;
+}
+
+.banner-subText{
+    display: flex;
+    gap: 40px;
+    margin-top: 16px;
+}
+
+.banner-textButton{
+    color: black;
+    border-radius: 16px;
+    padding: 12px 20px;
+    background: white;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.banner-sideButton{
+    width: 10%;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-sideButton button{
+    border: 1px solid white;
+    color: black;
+    border-radius: 20px;
+    padding: 6px 16px;
+    background: white;
+    font-size: 12px;
+    font-weight: 400;
+}
