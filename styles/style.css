@@ -71,7 +71,7 @@ nav {
 
 .banner-text{
     flex-grow: 1;
-    padding: 32px;
+    padding: 48px;
     
 }
 
@@ -102,7 +102,7 @@ nav {
     background: white;
     font-size: 12px;
     font-weight: 400;
-    margin-top: 16px;
+    margin-top: 24px;
 }
 
 .banner-sideButton{
@@ -121,4 +121,53 @@ nav {
     background: white;
     font-size: 12px;
     font-weight: 400;
+}
+
+
+/* Browse Section */
+
+.browse-container{
+    width: 85%;
+    margin: 100px auto 50px;
+}
+
+.browse-header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.browse-header-container button{
+    background: none;
+    border: none;
+    font-weight: 600;
+}
+
+.browse-header-container h1{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.browse-card-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.browse-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 40px;
+    border-radius: 20px;
+    border: .01px solid rgb(211, 205, 205);
+}
+
+.browse-img-container{
+    border: none;
+    background: rgb(253, 250, 248);
+    border-radius: 100%;
+    padding: 16px;
 }
