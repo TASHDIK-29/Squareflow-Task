@@ -298,3 +298,46 @@ nav {
     font-size: 16px;
     color: rgb(119, 119, 247);
 }
+
+/* Online */
+
+.online-container{
+    width: 85%;
+    margin: 100px auto;
+    display: flex;
+    gap: 16px;
+}
+
+.online-text-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+}
+
+.online-text-container button{
+    width: 25%;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 20px;
+}
+.online-text-container h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.online-text-container p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.online-img-container{
+    width: 50%;
+}
+
+.online-img-container img{
+    width: 100%;
+    border-radius: 20px;
+}
