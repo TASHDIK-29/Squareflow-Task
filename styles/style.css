@@ -524,3 +524,25 @@ nav {
     width: 56px;
     height: 56px;
 }
+
+.right-car-container{
+    /* height: 500px; */
+    background: linear-gradient(180deg, rgba(2, 2, 15, 0.8) 20%, rgba(0, 0, 0, 0) 100%), url("../images/rightCar.jpg");
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    padding: 150px 200px;
+    margin: 100px 0;
+}
+
+.right-car-container h1{
+    font-size: 40px;
+    color: #fff;
+}
+.right-car-container button{
+    border: 1px solid white;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    background: none;
+    margin: 20px;
+}
