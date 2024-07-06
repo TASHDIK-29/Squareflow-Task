@@ -382,5 +382,44 @@ nav {
     background: none;
     font-size: 12px;
     font-weight: 400;
-    margin-right: 10px;
+    margin-right: 0 30px;
+}
+
+/* Review */
+
+.review-container{
+    display: flex;
+    align-items: center;
+}
+
+.review-container button{
+    background-color: #fff;
+    border: none;
+}
+
+.review-card-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 16px;
+    margin: 32px 0;
+}
+
+.review-card{
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 20px;
+}
+
+.rating-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-card h5{
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.border{
+    border: 2px solid red;
 }
