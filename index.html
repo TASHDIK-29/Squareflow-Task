@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Square-flow</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -22,6 +23,9 @@
                 <a href="">Service</a>
                 <a href="">Contact</a>
                 <button>Submit Listing</button>
+            </div>
+            <div class="mobile-only">
+                <i class="fa-solid fa-bars text"></i>
             </div>
         </nav>
         <div class="banner-container">
@@ -694,11 +698,8 @@
                 <div class="vehicles-sec-container ">
                     <div class="common-header-container ">
                         <h1>What Our Customer Say</h1>
-                        <!-- <button>View All <i class="fa-solid fa-arrow-up-right-from-square"></i></button> -->
                     </div>
-                    <!-- <div class="review-container"> -->
-                    <!-- <button class="special-btn"><i class="fa-solid fa-angle-left"></i></button> -->
-                    <div class="review-card-container">
+                    <div class="review-card-container pc-only">
                         <div class="review-card">
                             <div class="rating-container">
                                 <div>
@@ -768,8 +769,25 @@
                             <h5>Ali Tufan</h5>
                         </div>
                     </div>
-                    <!-- <button class="special-btn"><i class="fa-solid fa-angle-right"></i></button> -->
-                    <!-- </div> -->
+                    <div class="review-card-container-mobile mobile-only">
+                        <div class="review-card">
+                            <div class="rating-container">
+                                <div>
+                                    <i class="fa-solid fa-star" style="color: #1f5137;"></i>
+                                    <i class="fa-solid fa-star" style="color: #1f5137;"></i>
+                                    <i class="fa-solid fa-star" style="color: #1f5137;"></i>
+                                    <i class="fa-solid fa-star" style="color: #1f5137;"></i>
+                                    <i class="fa-solid fa-star" style="color: #1f5137;"></i>
+                                </div>
+                                <p><i class="fa-solid fa-circle-check"></i> Verified</p>
+                            </div>
+                            <h5>Seals process is simple and easy</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid nesciunt itaque ex
+                                nihil,
+                                vero minus.</p>
+                            <h5>Ali Tufan</h5>
+                        </div>
+                    </div>
                 </div>
                 <button class="special-btn"><i class="fa-solid fa-angle-right"></i></button>
             </div>
@@ -903,6 +921,8 @@
             </div>
         </section>
     </main>
+
+
     <footer class="footer">
         <div class="container ">
             <div class="footer-top">
