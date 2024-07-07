@@ -26,6 +26,10 @@
         
     }
 
+    .wheel{
+        height: 5%;
+    }
+
     .browse-card-container {
         grid-template-columns: auto auto;
     }

@@ -139,6 +139,25 @@ nav {
     font-weight: 400;
 }
 
+header{
+    position: relative;
+}
+
+.wheel{
+    background-color: #000;
+    width: 5%;
+    height: 10%;
+    padding: .7rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.wheel img{
+    width: 100%;
+}
+
 
 /* Common Headings */
 
