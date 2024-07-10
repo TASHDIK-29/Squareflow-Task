@@ -46,6 +46,8 @@ nav {
     color: white;
 }
 
+
+
 .nav-menu button {
     border: 1px solid white;
     color: white;
@@ -56,6 +58,7 @@ nav {
     font-weight: 400;
 }
 
+
 .nav-menu a {
     text-decoration: none;
     color: white;
@@ -64,8 +67,18 @@ nav {
 }
 
 
+
 .mobile-only {
     display: none;
+}
+
+/* for mobile-menu */
+
+.no-display {
+    display: none;
+}
+.display {
+    display: flex !important;
 }
 
 .banner-container {
@@ -801,3 +814,6 @@ header{
     display: flex;
     align-items: center;
 } */
+
+
+
